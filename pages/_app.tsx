@@ -3,6 +3,11 @@ import Router from 'next/router'
 import Layout from '../components/Layout'
 import '../styles/globals.scss'
 
+// fontAwesome
+import '@fortawesome/fontawesome-svg-core/styles.css'
+import { config } from '@fortawesome/fontawesome-svg-core'
+import '../src/fontAwesome' // fontAwesome libraries
+
 // NProgress imports
 import NProgress from 'nprogress'
 import 'nprogress/nprogress.css'
@@ -24,6 +29,7 @@ Router.events.on('routeChangeError', () => {
 })
 
 function MyApp({ Component, pageProps }: AppProps) {
+  config.autoAddCss = false
   return (
     <Layout>
       <Component {...pageProps} />
