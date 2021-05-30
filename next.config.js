@@ -10,3 +10,9 @@ module.exports = (phase, { defaultConfig }) => {
   }
   return defaultConfig
 }
+
+module.exports = {
+  future: {
+    webpack5: true,
+  },
+}
