@@ -10,7 +10,13 @@ module.exports = {
     },
     extend: {
       colors: {
-        'nav-bg': '#383E4C',
+        primary: {
+          light: '#4e6baf',
+          DEFAULT: '#1f46a1',
+          dark: '#0d3aa3',
+        },
+        secondary: '#ff552b',
+        mute: '#929191',
       },
     },
   },
