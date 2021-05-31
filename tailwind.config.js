@@ -10,7 +10,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        // 'nav-bg': '#383E4C',
+        'nav-bg': '#383E4C',
       },
     },
   },

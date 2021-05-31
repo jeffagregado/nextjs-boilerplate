@@ -1,10 +1,7 @@
 import { AppProps } from 'next/app'
 import Router from 'next/router'
 import Layout from '../components/Layout'
-// import '../styles/tailwind.css'
 import '../styles/globals.scss'
-
-//import "tailwindcss/tailwind.css"
 
 // fontAwesome
 import '@fortawesome/fontawesome-svg-core/styles.css'
