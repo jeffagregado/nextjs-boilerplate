@@ -6,6 +6,17 @@ import {
   faGithubSquare,
 } from '@fortawesome/free-brands-svg-icons'
 
-import { faEnvelope, faSearch } from '@fortawesome/free-solid-svg-icons'
+import {
+  faEnvelope,
+  faSearch,
+  faMapMarkerAlt,
+} from '@fortawesome/free-solid-svg-icons'
 
-library.add(faTwitterSquare, faLinkedinIn, faGithubSquare, faEnvelope, faSearch)
+library.add(
+  faTwitterSquare,
+  faLinkedinIn,
+  faGithubSquare,
+  faEnvelope,
+  faSearch,
+  faMapMarkerAlt
+)
