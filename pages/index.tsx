@@ -1,7 +1,9 @@
+import Text from "../components/Text";
+
 export default function Home() {
   return (
     <div className="container">
-      <h1>Hello World</h1>
+      <Text.Title bold>Hello World</Text.Title>
     </div>
   )
 }
