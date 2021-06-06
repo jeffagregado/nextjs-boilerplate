@@ -8,6 +8,15 @@ module.exports = {
       center: true,
       padding: '1.5rem',
     },
+    fontFamily: {
+      roboto: ['Roboto', 'sans-serif', 'ui-sans-serif'],
+    },
+    backgroundSize: {
+      'auto-full': 'auto 100%',
+    },
+    backgroundPosition: {
+      half: '50%',
+    },
     extend: {
       colors: {
         primary: {
@@ -18,6 +27,9 @@ module.exports = {
         secondary: '#ff552b',
         mute: '#929191',
       },
+      // backgroundImage: (theme) => ({
+      //   hero: "url('/xl-hero-desktop_2021.webp')",
+      // }),
     },
   },
   variants: {
