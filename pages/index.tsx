@@ -1,9 +1,10 @@
+import { Container } from "../components/Container";
 import Text from "../components/Text";
 
 export default function Home() {
   return (
-    <div className="container">
+    <Container>
       <Text.Title bold>Hello World</Text.Title>
-    </div>
+    </Container>
   )
 }
